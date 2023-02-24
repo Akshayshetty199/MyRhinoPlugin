@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RhinoCommon" Version="7.26.23009.7001" />
+    <PackageReference Include="Uno.UI" Version="4.7.44" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Rhino.UI">
+      <HintPath>..\..\..\..\..\Program Files\Rhino 7\System\Rhino.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="RhinoCommon">
+      <HintPath>..\..\..\..\..\Program Files\Rhino 7\System\RhinoCommon.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
